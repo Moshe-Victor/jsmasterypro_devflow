@@ -1,10 +1,10 @@
 import React from 'react'
 
-const Page = () => {
+const Home = () => {
     return (
-        <div>
-          <h1>Welcome to the ultimate Next.js course!</h1>
-        </div>
+        <>
+          <h1 className="h1-bold">Welcome to the ultimate Next.js course!</h1>
+        </>
     )
 }
-export default Page
+export default Home
